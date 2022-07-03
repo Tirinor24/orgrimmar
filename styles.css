@@ -9,10 +9,11 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     font-size: 13px;
     font-family: 'MedievalSharp', cursive;
+    width: 400px;
 }
 
 img {
