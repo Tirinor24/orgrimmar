@@ -1,0 +1,75 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/org.jpg");
+    background-size: cover;
+    padding: 30px 15px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 15px;
+}
+
+#sights-heading {
+    display: box;
+    width: 240px;
+    margin: 10px auto;
+}
+
+.sight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    width: 110px;
+}
+
+.heading {
+    background: red;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+#sights {
+    display: flex;
+    justify-content: space-around;
+}
+
+#business-card {
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    background: url(images/horde.jpg);
+    background-size: cover;
+    margin: 10px 20px 10px;
+    padding: 10px;
+}
+
+#business-info {
+    width: 180px;
+    font-weight: bold;
+    color: #F1FAEE;
+    text-shadow: 0 0 1px black;
+}
+
+#business-img {
+    margin-top: 30px;
+}
